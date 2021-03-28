@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6673977516302992901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6673977516302992899}
+  - component: {fileID: 6673977516302992900}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6673977516302992899
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6673977516302992901}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.0005217, y: 1.5668458, z: -0.6229289}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6673977516302992900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6673977516302992901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15367dfcd9f590d4f8a889ae1e85d3a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Attack
+    clip: {fileID: 8300000, guid: c5b95a76a1a4daa4391b2ea523deb135, type: 3}
+    volume: 0.75
+    loop: 0
+    source: {fileID: 0}
+  - name: Damaged
+    clip: {fileID: 8300000, guid: a2253e27eacca2d449a71670cecdf839, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Collect
+    clip: {fileID: 8300000, guid: 25d92c0d0a3922249b0d3f6f3abf379c, type: 3}
+    volume: 0.75
+    loop: 0
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: d238c6994ee52cc4d8257b77c0bfba0c, type: 3}
+    volume: 0.3
+    loop: 0
+    source: {fileID: 0}
+  - name: CoronaDamaged
+    clip: {fileID: 8300000, guid: e15867153cbb04f4983fe2e58443c22a, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Theme
+    clip: {fileID: 8300000, guid: 4d1cc37176bbb0c44a6adad68b021ad6, type: 3}
+    volume: 0.15
+    loop: 1
+    source: {fileID: 0}
