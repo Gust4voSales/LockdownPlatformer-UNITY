@@ -20,5 +20,6 @@ My first game. A 2D platformer with Covid-19 theme</p>
 ## 📜 About
 
 This project is created with Unity Engine, it is my first game, I've made the art (except the background) and all sound effects as well.
-<a href="https://gust4vosales.itch.io/lockdown-platformer">PLAY</a>
+<br />
+<a href="https://gust4vosales.itch.io/lockdown-platformer">PLAY THE GAME</a>
  
